@@ -42,7 +42,7 @@ def runSetup():
     six = 'six>=1.11.0'  # Success 'six>=1.10.0'
     future = 'future'
     requests = 'requests==2.19.1'  # Success 'requests==2.18.4'
-    docker = 'docker==3.4.0'  # Failure
+    docker = 'docker==3.3.0'  # Failure
     subprocess32 = 'subprocess32==3.5.2'
     dateutil = 'python-dateutil'
 
