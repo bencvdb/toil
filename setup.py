@@ -24,7 +24,7 @@ def runSetup():
     boto3 = 'boto3>=1.7.50, <2.0'  # Success 'boto3==1.4.7'
     futures = 'futures==3.2.0'  # Success 'futures==3.1.1'
     pycryptodome = 'pycryptodome==3.6.4'  # Success 'pycryptodome==3.5.1'
-    psutil = 'psutil==5.4.6'  # Failure
+    psutil = 'psutil==5.4.6'  # Success 'psutil==3.0.1'
     protobuf = 'protobuf==3.6.0'  # Success 'protobuf==3.5.1'
     azureCosmosdbTable = 'azure-cosmosdb-table==1.0.4'  # Success 'azure-cosmosdb-table==0.37.1'
     azureAnsible = 'ansible[azure]==2.5.0a1'
@@ -42,7 +42,7 @@ def runSetup():
     six = 'six>=1.11.0'  # Success 'six>=1.10.0'
     future = 'future'
     requests = 'requests==2.19.1'  # Success 'requests==2.18.4'
-    docker = 'docker==2.5.1'  # Failure
+    docker = 'docker==3.4.1'  # Failure
     subprocess32 = 'subprocess32==3.5.2'
     dateutil = 'python-dateutil'
 
