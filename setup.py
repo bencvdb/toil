@@ -35,7 +35,7 @@ def runSetup():
     gcs_oauth2_boto_plugin = 'gcs_oauth2_boto_plugin==2.1'  # Success 'gcs_oauth2_boto_plugin==1.14'
     apacheLibcloud = 'apache-libcloud==2.3.0'  # Success 'apache-libcloud==2.2.1'
     cwltool = 'cwltool==1.0.20180622214234'  # Success 'cwltool==1.0.20180518123035'
-    schemaSalad = 'schema-salad>=2.6, <3'
+    schemaSalad = 'schema-salad>=2.6.20170927145003,<3'  # ? 'schema-salad>=2.6, <3'
     galaxyLib = 'galaxy-lib==18.5.13'  # Success 'galaxy-lib==17.9.3'
     htcondor = 'htcondor>=8.7.0'  # Success 'htcondor>=8.6.0'
     dill = 'dill==0.2.8.2'  # Success 'dill==0.2.7.1'
